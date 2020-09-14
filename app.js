@@ -40,7 +40,7 @@ document.querySelector('.btn-roll').addEventListener('click', () => {
     dice = Math.floor(Math.random() * 6) + 1;
     // 2. update grafica
     diceDOM.style.display = 'block';
-    diceDOM.src = 'dice-' + dice + '.png';
+    diceDOM.src = 'assets/images/dice-' + dice + '.png';
     // 3. update score
     tempScore += dice;
     // 4. se esce il numero 1 passo il turno altrimenti update dei punti sulla UI

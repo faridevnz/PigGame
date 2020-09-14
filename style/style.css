@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../assets/images/color-background.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -86,10 +86,13 @@ body {
 .player-current-box {
     background-color: #EB4D4D;
     color: #fff;
-    width: 40%;
+    width: 35%;
+    height: 20%;
     margin: 0 auto;
     padding: 12px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .player-current-label {
